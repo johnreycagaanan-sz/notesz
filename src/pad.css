@@ -1,0 +1,14 @@
+/* .pad{
+    height: 80%;
+    width: 80%;
+} */
+
+.editor{
+    display: flex;
+    height: 100%;
+    flex: 10;
+}
+
+.wrapperClassName{
+    width: 1000px;
+}
