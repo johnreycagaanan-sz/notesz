@@ -1,14 +1,21 @@
-/* .pad{
-    height: 80%;
-    width: 80%;
-} */
-
 .editor{
     display: flex;
     height: 100%;
     flex: 10;
+    width: 100%;
 }
 
 .wrapperClassName{
-    width: 1000px;
+    width: 100%;
+}
+
+.editorClassName{
+    height: 100% !important;
+    margin:0;
+}
+
+@media (max-width: 500px) {
+    .editorClassName{
+        max-width: 500px;
+    }
 }
